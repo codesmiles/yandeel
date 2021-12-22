@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+
+* {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 1em 0;
+  color: #ffffff;
+}
+li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.nametag {
+  color: #2f6114;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+.extra {
+  background: #e88452;
+  border-radius: 10px;
+  padding: 1em;
+  display: inline-block;
+  color: #ffffff;
+}
+.extra:hover {
+  /* background:  rgba(239, 246, 238, 0.3); */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dash {
+  color: #2f6114;
+}
+
+.walletBal {
+  background: rgba(79, 156, 36, 0.1);
+  box-shadow: inset 0px 31.1443px 44.72px -28.7486px rgba(255, 255, 255, 0.5),
+    inset 0px 5.59px 8.78429px -3.19429px #ffffff,
+    inset 0px -65.4829px 54.3029px -51.1086px rgba(47, 97, 20, 0.3),
+    inset 0px 78.26px 79.8571px -38.3314px rgba(47, 97, 20, 0.3),
+    inset 0px 3.19429px 14.3743px rgba(47, 97, 20, 0.3),
+    inset 0px 0.798571px 31.9429px rgba(47, 97, 20, 0.3);
+  backdrop-filter: blur(79.8571px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+  padding: 2em;
+  width: 15em;
+}
+
+.num {
+  font-weight: bold;
+  color: #2f6114;
+}
+
+.trade-section {
+  background: #eff6ee;
+  box-shadow: -4px -4px 10px rgba(81, 151, 42, 0.2),
+    4px 4px 10px rgba(79, 156, 36, 0.2);
+  border-radius: 10px;
+}
+
+.giftcard{
+    background: rgba(57, 20, 99, 0.4);
+border-radius: 20px;
+
+
+}
+.bitcoin{
+    background: rgba(18, 88, 111, 0.5);
+border-radius: 20px;
+}
+
+.t-text{
+    font-size: 12px;
+ 
+}
